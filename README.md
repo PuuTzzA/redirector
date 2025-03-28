@@ -1,1 +1,1 @@
-[link](https://puutzza.github.io/redirecting/)
+[link](https://puutzza.github.io/redirector)

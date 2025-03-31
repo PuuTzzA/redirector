@@ -27,6 +27,8 @@ for (const [key, value] of params) {
     if (key == "name" && value in nameToLink) {
         const item = nameToLink[value];
         console.log(`${item.name}\nredirecting to ${item.url}`);
+
+        document.getElementById("debug").innerHTML = item.name;
         // window.location.replace(item.url);
     }
 }

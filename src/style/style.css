@@ -12,3 +12,8 @@ body {
     padding: 0;
     background-color: black;
 }
+
+#debug{
+    color: white;
+    font-size: 5rem;
+}

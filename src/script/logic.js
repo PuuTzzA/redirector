@@ -26,8 +26,10 @@ for (const [key, value] of params) {
 
     if (key == "id" && value in idToLink) {
         const item = idToLink[value];
+        if (item.url == "none yet") {
+            return;
+        }
         console.log(`${item.name}\nredirecting to ${item.url}`);
-
         document.getElementById("debug").innerHTML = item.name;
         window.location.replace(item.url);
     }

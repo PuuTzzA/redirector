@@ -13,7 +13,24 @@ body {
     background-color: black;
 }
 
-#debug{
+#debug {
     color: white;
-    font-size: 5rem;
+    font-size: 2rem;
+}
+
+.link {
+    margin-top: 1rem;
+    color: rgb(200, 200, 200);
+    font-size: 1.5rem;
+}
+
+.link:active {
+    color: white;
+}
+
+.wrapper {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1r;
+    gap: 0rem;
 }

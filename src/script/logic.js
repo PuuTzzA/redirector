@@ -14,7 +14,7 @@ const idToLink = {
     13: { name: "Steiner Erwin Jakob", url: "none yet" },
     14: { name: "Steiner Florian", url: "none yet" },
     15: { name: "Taschler Jasmin", url: "none yet" },
-    16: { name: "Trenker Andreas", url: "none yet" },
+    16: { name: "Trenker Andreas", url: "https://www.youtube.com/watch?v=lPanYsTskOk" },
     17: { name: "Trenker Johannes", url: "none yet" },
     18: { name: "Weidacher Dolores", url: "none yet" }
 }
@@ -29,6 +29,6 @@ for (const [key, value] of params) {
         console.log(`${item.name}\nredirecting to ${item.url}`);
 
         document.getElementById("debug").innerHTML = item.name;
-        // window.location.replace(item.url);
+        window.location.replace(item.url);
     }
 }
